@@ -1,212 +1,561 @@
 {
-    "lang": "es",
-    "referenced_tweets": [
-        {
-            "type": "replied_to",
-            "id": "1578344816941101056",
-            "lang": "es",
-            "source": "Twitter Web App",
-            "created_at": "2022-10-07T11:21:43.000Z",
-            "context_annotations": [
-                {
-                    "domain": {
-                        "id": "30",
-                        "name": "Entities [Entity Service]",
-                        "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
-                    },
-                    "entity": {
-                        "id": "781974596165640192",
-                        "name": "Telco"
-                    }
-                },
-                {
-                    "domain": {
-                        "id": "47",
-                        "name": "Brand",
-                        "description": "Brands and Companies"
-                    },
-                    "entity": {
-                        "id": "1009742374216523778",
-                        "name": "Movistar",
-                        "description": "Movistar"
-                    }
-                }
-            ],
-            "entities": {
-                "annotations": [
-                    {
-                        "start": 8,
-                        "end": 15,
-                        "probability": 0.6337,
-                        "type": "Organization",
-                        "normalized_text": "Movistar"
-                    }
-                ]
-            },
-            "reply_settings": "everyone",
-            "text": "Llamo a Movistar para una portabilidad.\n\nYa van 4 llamadas de 3 departamentos distintos contradici\u00e9ndose sobre si es posible o no aplicar una promoci\u00f3n que ellos me han ofrecido.\n\nTodos me recuerdan que x favor responda la encuesta de satisfacci\u00f3n. Vaya que si la voy a responder.",
-            "possibly_sensitive": false,
-            "edit_controls": {
-                "edits_remaining": 5,
-                "is_edit_eligible": false,
-                "editable_until": "2022-10-07T11:51:43.000Z"
-            },
-            "edit_history_tweet_ids": [
-                "1578344816941101056"
-            ],
-            "author_id": "1042159898388254720",
-            "public_metrics": {
-                "retweet_count": 0,
-                "reply_count": 3,
-                "like_count": 9,
-                "quote_count": 0
-            },
-            "conversation_id": "1578344816941101056",
-            "author": {
-                "id": "1042159898388254720",
-                "profile_image_url": "https://pbs.twimg.com/profile_images/1587211415370219520/mDPHQuIJ_normal.jpg",
-                "location": "Sant Joan Desp\u00ed, Espa\u00f1a",
-                "url": "https://t.co/4PBPNDsij0",
-                "name": "dani",
-                "pinned_tweet_id": "1477916137656446976",
-                "username": "danidlcdev",
-                "description": "\ud83d\udc68\u200d\ud83d\udcbb Product developer from Sant Joan Desp\u00ed. Opinions are my own. I\u2019m here for the memes.",
-                "public_metrics": {
-                    "followers_count": 5389,
-                    "following_count": 638,
-                    "tweet_count": 4558,
-                    "listed_count": 76
-                },
-                "protected": false,
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "start": 0,
-                                "end": 23,
-                                "url": "https://t.co/4PBPNDsij0",
-                                "expanded_url": "https://delacruz.dev",
-                                "display_url": "delacruz.dev"
-                            }
-                        ]
-                    }
-                },
-                "created_at": "2018-09-18T21:14:17.000Z",
-                "verified": false
-            }
-        }
-    ],
-    "source": "Twitter Web App",
-    "in_reply_to_user_id": "1042159898388254720",
-    "created_at": "2022-10-07T11:44:55.000Z",
     "context_annotations": [
         {
             "domain": {
-                "id": "30",
-                "name": "Entities [Entity Service]",
-                "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                "id": "46",
+                "name": "Business Taxonomy",
+                "description": "Categories within Brand Verticals that narrow down the scope of Brands"
             },
             "entity": {
-                "id": "781974596165640192",
-                "name": "Telco"
+                "id": "1557696888568045569",
+                "name": "Food & Beverage Business",
+                "description": "Brands, companies, advertisers and every non-person handle with the profit intent and related to foods & beverages such as snacks, soft drinks, beers."
             }
         },
         {
             "domain": {
-                "id": "47",
-                "name": "Brand",
-                "description": "Brands and Companies"
+                "id": "65",
+                "name": "Interests and Hobbies Vertical",
+                "description": "Top level interests and hobbies groupings, like Food or Travel"
             },
             "entity": {
-                "id": "1009742374216523778",
-                "name": "Movistar",
-                "description": "Movistar"
+                "id": "834828264786898945",
+                "name": "Drinks",
+                "description": "Drinks"
+            }
+        },
+        {
+            "domain": {
+                "id": "66",
+                "name": "Interests and Hobbies Category",
+                "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+            },
+            "entity": {
+                "id": "834828445238431744",
+                "name": "Generic Drinks",
+                "description": "Generic Drinks"
+            }
+        },
+        {
+            "domain": {
+                "id": "67",
+                "name": "Interests and Hobbies",
+                "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+            },
+            "entity": {
+                "id": "850442647088971776",
+                "name": "Coffee",
+                "description": "Coffee"
+            }
+        },
+        {
+            "domain": {
+                "id": "65",
+                "name": "Interests and Hobbies Vertical",
+                "description": "Top level interests and hobbies groupings, like Food or Travel"
+            },
+            "entity": {
+                "id": "834828264786898945",
+                "name": "Drinks",
+                "description": "Drinks"
+            }
+        },
+        {
+            "domain": {
+                "id": "66",
+                "name": "Interests and Hobbies Category",
+                "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+            },
+            "entity": {
+                "id": "834828445238431744",
+                "name": "Generic Drinks",
+                "description": "Generic Drinks"
+            }
+        },
+        {
+            "domain": {
+                "id": "67",
+                "name": "Interests and Hobbies",
+                "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+            },
+            "entity": {
+                "id": "850442647088971776",
+                "name": "Coffee",
+                "description": "Coffee"
             }
         }
     ],
-    "entities": {
-        "annotations": [
-            {
-                "start": 52,
-                "end": 59,
-                "probability": 0.657,
-                "type": "Organization",
-                "normalized_text": "Movistar"
-            }
-        ],
-        "mentions": [
-            {
-                "start": 0,
-                "end": 11,
-                "username": "danidlcdev",
-                "id": "1042159898388254720",
-                "profile_image_url": "https://pbs.twimg.com/profile_images/1587211415370219520/mDPHQuIJ_normal.jpg",
-                "location": "Sant Joan Desp\u00ed, Espa\u00f1a",
-                "url": "https://t.co/4PBPNDsij0",
-                "name": "dani",
-                "pinned_tweet_id": "1477916137656446976",
-                "description": "\ud83d\udc68\u200d\ud83d\udcbb Product developer from Sant Joan Desp\u00ed. Opinions are my own. I\u2019m here for the memes.",
-                "public_metrics": {
-                    "followers_count": 5389,
-                    "following_count": 638,
-                    "tweet_count": 4558,
-                    "listed_count": 76
+    "source": "Twitter for iPhone",
+    "edit_controls": {
+        "edits_remaining": 5,
+        "is_edit_eligible": false,
+        "editable_until": "2022-09-26T19:53:25.000Z"
+    },
+    "id": "1574479775313297416",
+    "public_metrics": {
+        "retweet_count": 1,
+        "reply_count": 4,
+        "like_count": 39,
+        "quote_count": 0
+    },
+    "referenced_tweets": [
+        {
+            "type": "replied_to",
+            "id": "1574477325302759424",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "id": "46",
+                        "name": "Business Taxonomy",
+                        "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                    },
+                    "entity": {
+                        "id": "1557696888568045569",
+                        "name": "Food & Beverage Business",
+                        "description": "Brands, companies, advertisers and every non-person handle with the profit intent and related to foods & beverages such as snacks, soft drinks, beers."
+                    }
                 },
-                "protected": false,
+                {
+                    "domain": {
+                        "id": "65",
+                        "name": "Interests and Hobbies Vertical",
+                        "description": "Top level interests and hobbies groupings, like Food or Travel"
+                    },
+                    "entity": {
+                        "id": "834828264786898945",
+                        "name": "Drinks",
+                        "description": "Drinks"
+                    }
+                },
+                {
+                    "domain": {
+                        "id": "66",
+                        "name": "Interests and Hobbies Category",
+                        "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                    },
+                    "entity": {
+                        "id": "834828445238431744",
+                        "name": "Generic Drinks",
+                        "description": "Generic Drinks"
+                    }
+                },
+                {
+                    "domain": {
+                        "id": "67",
+                        "name": "Interests and Hobbies",
+                        "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+                    },
+                    "entity": {
+                        "id": "850442647088971776",
+                        "name": "Coffee",
+                        "description": "Coffee"
+                    }
+                },
+                {
+                    "domain": {
+                        "id": "65",
+                        "name": "Interests and Hobbies Vertical",
+                        "description": "Top level interests and hobbies groupings, like Food or Travel"
+                    },
+                    "entity": {
+                        "id": "834828264786898945",
+                        "name": "Drinks",
+                        "description": "Drinks"
+                    }
+                },
+                {
+                    "domain": {
+                        "id": "66",
+                        "name": "Interests and Hobbies Category",
+                        "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                    },
+                    "entity": {
+                        "id": "834828445238431744",
+                        "name": "Generic Drinks",
+                        "description": "Generic Drinks"
+                    }
+                },
+                {
+                    "domain": {
+                        "id": "67",
+                        "name": "Interests and Hobbies",
+                        "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+                    },
+                    "entity": {
+                        "id": "850442647088971776",
+                        "name": "Coffee",
+                        "description": "Coffee"
+                    }
+                }
+            ],
+            "source": "Twitter for iPhone",
+            "edit_controls": {
+                "edits_remaining": 5,
+                "is_edit_eligible": true,
+                "editable_until": "2022-09-26T19:43:41.000Z"
+            },
+            "public_metrics": {
+                "retweet_count": 6,
+                "reply_count": 6,
+                "like_count": 175,
+                "quote_count": 0
+            },
+            "entities": {
+                "annotations": [
+                    {
+                        "start": 10,
+                        "end": 19,
+                        "probability": 0.4466,
+                        "type": "Other",
+                        "normalized_text": "platziconf"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 68,
+                        "end": 78,
+                        "username": "nicobytes",
+                        "id": "91238092",
+                        "entities": {
+                            "url": {
+                                "urls": [
+                                    {
+                                        "start": 0,
+                                        "end": 23,
+                                        "url": "https://t.co/xkb3mPgJYs",
+                                        "expanded_url": "http://www.nicobytes.com/",
+                                        "display_url": "nicobytes.com"
+                                    }
+                                ]
+                            },
+                            "description": {
+                                "hashtags": [
+                                    {
+                                        "start": 34,
+                                        "end": 44,
+                                        "tag": "Microsoft"
+                                    },
+                                    {
+                                        "start": 53,
+                                        "end": 64,
+                                        "tag": "JavaScript"
+                                    },
+                                    {
+                                        "start": 69,
+                                        "end": 76,
+                                        "tag": "Python"
+                                    }
+                                ],
+                                "mentions": [
+                                    {
+                                        "start": 0,
+                                        "end": 16,
+                                        "username": "GoogleDevExpert"
+                                    },
+                                    {
+                                        "start": 21,
+                                        "end": 30,
+                                        "username": "MVPAward"
+                                    },
+                                    {
+                                        "start": 118,
+                                        "end": 125,
+                                        "username": "Platzi"
+                                    }
+                                ]
+                            }
+                        },
+                        "protected": false,
+                        "url": "https://t.co/xkb3mPgJYs",
+                        "description": "@GoogleDevExpert and @MVPAward by #Microsoft. I love #JavaScript and #Python for programming, Senior Dev & Teacher at @Platzi",
+                        "name": "Nicolas Molina",
+                        "public_metrics": {
+                            "followers_count": 8336,
+                            "following_count": 1216,
+                            "tweet_count": 8735,
+                            "listed_count": 137
+                        },
+                        "verified": false,
+                        "location": "Bogota Colombia",
+                        "created_at": "2009-11-20T01:14:49.000Z",
+                        "profile_image_url": "https://pbs.twimg.com/profile_images/1234056128650235904/x10AJ_bT_normal.jpg"
+                    },
+                    {
+                        "start": 79,
+                        "end": 87,
+                        "username": "midudev",
+                        "id": "4882508632",
+                        "entities": {
+                            "url": {
+                                "urls": [
+                                    {
+                                        "start": 0,
+                                        "end": 23,
+                                        "url": "https://t.co/jnv9RuXwle",
+                                        "expanded_url": "https://twitch.tv/midudev",
+                                        "display_url": "twitch.tv/midudev"
+                                    }
+                                ]
+                            },
+                            "description": {
+                                "urls": [
+                                    {
+                                        "start": 91,
+                                        "end": 114,
+                                        "url": "https://t.co/fcahiemHdr",
+                                        "expanded_url": "http://twitch.tv/midudev",
+                                        "display_url": "twitch.tv/midudev"
+                                    },
+                                    {
+                                        "start": 127,
+                                        "end": 150,
+                                        "url": "https://t.co/XruHkD62j3",
+                                        "expanded_url": "http://discord.gg/midudev",
+                                        "display_url": "discord.gg/midudev"
+                                    }
+                                ]
+                            }
+                        },
+                        "protected": false,
+                        "pinned_tweet_id": "1575166999042326529",
+                        "url": "https://t.co/jnv9RuXwle",
+                        "description": "\ud83d\udc68\u200d\ud83d\udcbb Ingeniero de Software & JavaScript\n\u2b50 GitHub Star y Google Dev Expert\n\ud83d\udd34 Twitch Partner: https://t.co/fcahiemHdr\n\ud83d\udde3\ufe0f Discord: https://t.co/XruHkD62j3",
+                        "name": "Miguel \u00c1ngel Dur\u00e1n",
+                        "public_metrics": {
+                            "followers_count": 148975,
+                            "following_count": 791,
+                            "tweet_count": 9564,
+                            "listed_count": 3149
+                        },
+                        "verified": false,
+                        "location": "\u2318 Barcelona",
+                        "created_at": "2016-02-06T17:55:21.000Z",
+                        "profile_image_url": "https://pbs.twimg.com/profile_images/1587922722192965633/afNHbQoT_normal.jpg"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 108,
+                        "end": 131,
+                        "url": "https://t.co/aFbGsuy3Ah",
+                        "expanded_url": "https://twitter.com/CelisMX/status/1574477325302759424/photo/1",
+                        "display_url": "pic.twitter.com/aFbGsuy3Ah",
+                        "media_key": "3_1574477319024017408"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "start": 52,
+                        "end": 67,
+                        "tag": "Reconciliacion"
+                    }
+                ]
+            },
+            "conversation_id": "1574477325302759424",
+            "created_at": "2022-09-26T19:13:41.000Z",
+            "possibly_sensitive": false,
+            "lang": "es",
+            "author_id": "77679581",
+            "reply_settings": "everyone",
+            "attachments": {
+                "media_keys": [
+                    "3_1574477319024017408"
+                ],
+                "media": [
+                    {}
+                ]
+            },
+            "text": "Lo que la platziconf separa, que el caf\u00e9 los una!!  #Reconciliacion @nicobytes @midudev hacen las paces !!! https://t.co/aFbGsuy3Ah",
+            "edit_history_tweet_ids": [
+                "1574477325302759424"
+            ],
+            "author": {
                 "entities": {
                     "url": {
                         "urls": [
                             {
                                 "start": 0,
                                 "end": 23,
-                                "url": "https://t.co/4PBPNDsij0",
-                                "expanded_url": "https://delacruz.dev",
-                                "display_url": "delacruz.dev"
+                                "url": "https://t.co/sMseXvjsFR",
+                                "expanded_url": "http://twitch.tv/celismx",
+                                "display_url": "twitch.tv/celismx"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "start": 80,
+                                "end": 103,
+                                "url": "https://t.co/ovkTIE3n5s",
+                                "expanded_url": "http://platzi.com/profesores/cel",
+                                "display_url": "platzi.com/profesores/cel"
+                            }
+                        ],
+                        "mentions": [
+                            {
+                                "start": 71,
+                                "end": 78,
+                                "username": "Platzi"
                             }
                         ]
                     }
                 },
-                "created_at": "2018-09-18T21:14:17.000Z",
-                "verified": false
+                "protected": false,
+                "url": "https://t.co/sMseXvjsFR",
+                "description": "Amigo de Eduardo\nManager de la facultad de Computaci\u00f3n y Tecnolog\u00eda en @Platzi \nhttps://t.co/ovkTIE3n5s\u2026 \nOpinions are my own.",
+                "name": "Ricardo Celis",
+                "public_metrics": {
+                    "followers_count": 16639,
+                    "following_count": 1894,
+                    "tweet_count": 9873,
+                    "listed_count": 98
+                },
+                "username": "CelisMX",
+                "verified": false,
+                "id": "77679581",
+                "location": "Bogot\u00e1, D.C., Colombia",
+                "created_at": "2009-09-27T06:41:24.000Z",
+                "profile_image_url": "https://pbs.twimg.com/profile_images/1572273809146744835/PpvQ2mjN_normal.jpg"
+            }
+        }
+    ],
+    "conversation_id": "1574477325302759424",
+    "created_at": "2022-09-26T19:23:25.000Z",
+    "possibly_sensitive": false,
+    "lang": "es",
+    "author_id": "4882508632",
+    "entities": {
+        "mentions": [
+            {
+                "start": 0,
+                "end": 8,
+                "username": "CelisMX",
+                "id": "77679581",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "start": 0,
+                                "end": 23,
+                                "url": "https://t.co/sMseXvjsFR",
+                                "expanded_url": "http://twitch.tv/celismx",
+                                "display_url": "twitch.tv/celismx"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "start": 80,
+                                "end": 103,
+                                "url": "https://t.co/ovkTIE3n5s",
+                                "expanded_url": "http://platzi.com/profesores/cel",
+                                "display_url": "platzi.com/profesores/cel"
+                            }
+                        ],
+                        "mentions": [
+                            {
+                                "start": 71,
+                                "end": 78,
+                                "username": "Platzi"
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "url": "https://t.co/sMseXvjsFR",
+                "description": "Amigo de Eduardo\nManager de la facultad de Computaci\u00f3n y Tecnolog\u00eda en @Platzi \nhttps://t.co/ovkTIE3n5s\u2026 \nOpinions are my own.",
+                "name": "Ricardo Celis",
+                "public_metrics": {
+                    "followers_count": 16639,
+                    "following_count": 1894,
+                    "tweet_count": 9873,
+                    "listed_count": 98
+                },
+                "verified": false,
+                "location": "Bogot\u00e1, D.C., Colombia",
+                "created_at": "2009-09-27T06:41:24.000Z",
+                "profile_image_url": "https://pbs.twimg.com/profile_images/1572273809146744835/PpvQ2mjN_normal.jpg"
+            },
+            {
+                "start": 9,
+                "end": 19,
+                "username": "nicobytes",
+                "id": "91238092",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "start": 0,
+                                "end": 23,
+                                "url": "https://t.co/xkb3mPgJYs",
+                                "expanded_url": "http://www.nicobytes.com/",
+                                "display_url": "nicobytes.com"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "hashtags": [
+                            {
+                                "start": 34,
+                                "end": 44,
+                                "tag": "Microsoft"
+                            },
+                            {
+                                "start": 53,
+                                "end": 64,
+                                "tag": "JavaScript"
+                            },
+                            {
+                                "start": 69,
+                                "end": 76,
+                                "tag": "Python"
+                            }
+                        ],
+                        "mentions": [
+                            {
+                                "start": 0,
+                                "end": 16,
+                                "username": "GoogleDevExpert"
+                            },
+                            {
+                                "start": 21,
+                                "end": 30,
+                                "username": "MVPAward"
+                            },
+                            {
+                                "start": 118,
+                                "end": 125,
+                                "username": "Platzi"
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "url": "https://t.co/xkb3mPgJYs",
+                "description": "@GoogleDevExpert and @MVPAward by #Microsoft. I love #JavaScript and #Python for programming, Senior Dev & Teacher at @Platzi",
+                "name": "Nicolas Molina",
+                "public_metrics": {
+                    "followers_count": 8336,
+                    "following_count": 1216,
+                    "tweet_count": 8735,
+                    "listed_count": 137
+                },
+                "verified": false,
+                "location": "Bogota Colombia",
+                "created_at": "2009-11-20T01:14:49.000Z",
+                "profile_image_url": "https://pbs.twimg.com/profile_images/1234056128650235904/x10AJ_bT_normal.jpg"
             }
         ]
     },
     "reply_settings": "everyone",
-    "text": "@danidlcdev Cualquier cosa que empieza con \"Llamo a Movistar...\" todos sabemos que va a salir mal. \ud83e\udd23",
-    "possibly_sensitive": false,
-    "edit_controls": {
-        "edits_remaining": 5,
-        "is_edit_eligible": false,
-        "editable_until": "2022-10-07T12:14:55.000Z"
-    },
+    "in_reply_to_user_id": "77679581",
+    "text": "@CelisMX @nicobytes El caf\u00e9 ha sido tan bueno que hemos encontrado puntos de acuerdo. Angular \u2764\ufe0f",
     "edit_history_tweet_ids": [
-        "1578350658084024321"
+        "1574479775313297416"
     ],
-    "author_id": "4882508632",
-    "id": "1578350658084024321",
-    "public_metrics": {
-        "retweet_count": 0,
-        "reply_count": 1,
-        "like_count": 10,
-        "quote_count": 0
-    },
-    "conversation_id": "1578344816941101056",
     "author": {
-        "id": "4882508632",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1587922722192965633/afNHbQoT_normal.jpg",
-        "location": "\u2318 Barcelona",
-        "url": "https://t.co/jnv9RuXwle",
-        "name": "Miguel \u00c1ngel Dur\u00e1n",
-        "pinned_tweet_id": "1575166999042326529",
-        "username": "midudev",
-        "description": "\ud83d\udc68\u200d\ud83d\udcbb Ingeniero de Software & JavaScript\n\u2b50 GitHub Star y Google Dev Expert\n\ud83d\udd34 Twitch Partner: https://t.co/fcahiemHdr\n\ud83d\udde3\ufe0f Discord: https://t.co/XruHkD62j3",
-        "public_metrics": {
-            "followers_count": 148970,
-            "following_count": 791,
-            "tweet_count": 9564,
-            "listed_count": 3149
-        },
-        "protected": false,
         "entities": {
             "url": {
                 "urls": [
@@ -238,44 +587,76 @@
                 ]
             }
         },
+        "protected": false,
+        "pinned_tweet_id": "1575166999042326529",
+        "url": "https://t.co/jnv9RuXwle",
+        "description": "\ud83d\udc68\u200d\ud83d\udcbb Ingeniero de Software & JavaScript\n\u2b50 GitHub Star y Google Dev Expert\n\ud83d\udd34 Twitch Partner: https://t.co/fcahiemHdr\n\ud83d\udde3\ufe0f Discord: https://t.co/XruHkD62j3",
+        "name": "Miguel \u00c1ngel Dur\u00e1n",
+        "public_metrics": {
+            "followers_count": 148975,
+            "following_count": 791,
+            "tweet_count": 9564,
+            "listed_count": 3149
+        },
+        "username": "midudev",
+        "verified": false,
+        "id": "4882508632",
+        "location": "\u2318 Barcelona",
         "created_at": "2016-02-06T17:55:21.000Z",
-        "verified": false
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1587922722192965633/afNHbQoT_normal.jpg"
     },
     "in_reply_to_user": {
-        "id": "1042159898388254720",
-        "profile_image_url": "https://pbs.twimg.com/profile_images/1587211415370219520/mDPHQuIJ_normal.jpg",
-        "location": "Sant Joan Desp\u00ed, Espa\u00f1a",
-        "url": "https://t.co/4PBPNDsij0",
-        "name": "dani",
-        "pinned_tweet_id": "1477916137656446976",
-        "username": "danidlcdev",
-        "description": "\ud83d\udc68\u200d\ud83d\udcbb Product developer from Sant Joan Desp\u00ed. Opinions are my own. I\u2019m here for the memes.",
-        "public_metrics": {
-            "followers_count": 5389,
-            "following_count": 638,
-            "tweet_count": 4558,
-            "listed_count": 76
-        },
-        "protected": false,
         "entities": {
             "url": {
                 "urls": [
                     {
                         "start": 0,
                         "end": 23,
-                        "url": "https://t.co/4PBPNDsij0",
-                        "expanded_url": "https://delacruz.dev",
-                        "display_url": "delacruz.dev"
+                        "url": "https://t.co/sMseXvjsFR",
+                        "expanded_url": "http://twitch.tv/celismx",
+                        "display_url": "twitch.tv/celismx"
+                    }
+                ]
+            },
+            "description": {
+                "urls": [
+                    {
+                        "start": 80,
+                        "end": 103,
+                        "url": "https://t.co/ovkTIE3n5s",
+                        "expanded_url": "http://platzi.com/profesores/cel",
+                        "display_url": "platzi.com/profesores/cel"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "start": 71,
+                        "end": 78,
+                        "username": "Platzi"
                     }
                 ]
             }
         },
-        "created_at": "2018-09-18T21:14:17.000Z",
-        "verified": false
+        "protected": false,
+        "url": "https://t.co/sMseXvjsFR",
+        "description": "Amigo de Eduardo\nManager de la facultad de Computaci\u00f3n y Tecnolog\u00eda en @Platzi \nhttps://t.co/ovkTIE3n5s\u2026 \nOpinions are my own.",
+        "name": "Ricardo Celis",
+        "public_metrics": {
+            "followers_count": 16639,
+            "following_count": 1894,
+            "tweet_count": 9873,
+            "listed_count": 98
+        },
+        "username": "CelisMX",
+        "verified": false,
+        "id": "77679581",
+        "location": "Bogot\u00e1, D.C., Colombia",
+        "created_at": "2009-09-27T06:41:24.000Z",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1572273809146744835/PpvQ2mjN_normal.jpg"
     },
     "__twarc": {
-        "url": "https://api.twitter.com/2/users/4882508632/tweets?expansions=author_id%2Cin_reply_to_user_id%2Creferenced_tweets.id%2Creferenced_tweets.id.author_id%2Centities.mentions.username%2Cattachments.poll_ids%2Cattachments.media_keys%2Cgeo.place_id%2Cedit_history_tweet_ids&tweet.fields=attachments%2Cauthor_id%2Ccontext_annotations%2Cconversation_id%2Ccreated_at%2Centities%2Cgeo%2Cid%2Cin_reply_to_user_id%2Clang%2Cpublic_metrics%2Ctext%2Cpossibly_sensitive%2Creferenced_tweets%2Creply_settings%2Csource%2Cwithheld%2Cedit_controls&user.fields=created_at%2Cdescription%2Centities%2Cid%2Clocation%2Cname%2Cpinned_tweet_id%2Cprofile_image_url%2Cprotected%2Cpublic_metrics%2Curl%2Cusername%2Cverified%2Cwithheld&media.fields=alt_text%2Cduration_ms%2Cheight%2Cmedia_key%2Cpreview_image_url%2Ctype%2Curl%2Cwidth%2Cpublic_metrics&poll.fields=duration_minutes%2Cend_datetime%2Cid%2Coptions%2Cvoting_status&place.fields=contained_within%2Ccountry%2Ccountry_code%2Cfull_name%2Cgeo%2Cid%2Cname%2Cplace_type&max_results=100&pagination_token=7140dibdnow9c7btw423wsch7vj9xhmzg6v5lapsesn5c",
+        "url": "https://api.twitter.com/2/users/4882508632/tweets?expansions=author_id%2Cin_reply_to_user_id%2Creferenced_tweets.id%2Creferenced_tweets.id.author_id%2Centities.mentions.username%2Cattachments.poll_ids%2Cattachments.media_keys%2Cgeo.place_id%2Cedit_history_tweet_ids&tweet.fields=attachments%2Cauthor_id%2Ccontext_annotations%2Cconversation_id%2Ccreated_at%2Centities%2Cgeo%2Cid%2Cin_reply_to_user_id%2Clang%2Cpublic_metrics%2Ctext%2Cpossibly_sensitive%2Creferenced_tweets%2Creply_settings%2Csource%2Cwithheld%2Cedit_controls&user.fields=created_at%2Cdescription%2Centities%2Cid%2Clocation%2Cname%2Cpinned_tweet_id%2Cprofile_image_url%2Cprotected%2Cpublic_metrics%2Curl%2Cusername%2Cverified%2Cwithheld&media.fields=alt_text%2Cduration_ms%2Cheight%2Cmedia_key%2Cpreview_image_url%2Ctype%2Curl%2Cwidth%2Cpublic_metrics&poll.fields=duration_minutes%2Cend_datetime%2Cid%2Coptions%2Cvoting_status&place.fields=contained_within%2Ccountry%2Ccountry_code%2Cfull_name%2Cgeo%2Cid%2Cname%2Cplace_type&max_results=100&pagination_token=7140dibdnow9c7btw423hxegve9wzw3qjs336mqrwj5tl",
         "version": "2.12.0",
-        "retrieved_at": "2022-11-03T15:00:48+00:00"
+        "retrieved_at": "2022-11-03T15:17:25+00:00"
     }
 }

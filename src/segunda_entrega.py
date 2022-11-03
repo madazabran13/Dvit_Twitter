@@ -7,11 +7,11 @@ import time
 
 # Replace your bearer token below
 client = Twarc2(bearer_token=credentials.Bearer_Token)
-
+usuario = 'midudev'
 
 def main():
     while True:
-        user_timeline = client.timeline(user="midudev")
+        user_timeline = client.timeline(user=usuario)
         tweets(user_timeline)
         time.sleep(30)
 
