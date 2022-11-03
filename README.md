@@ -1,22 +1,31 @@
-# Dvit_Twitter
+# Dashboard de lenguajes de programación
 
-Nuevo proyecto en python 
+### La finalidad de este proyecto es hacer un dashboard con la información recopilada de los lenguajes de programación mas usados desde Twitter.
 
-### Información
-Este proyecto es un punto de partida para una plataforma de twitter con ayuda de python que nos permita visualizar el numero de tweets, seguidores,seguidsos de un usuario.
+---
+#### Para el desarrollo del proyecto se utilizó Python en la version 3.10.7 como lenguaje de pogramación.
 
-Algunos recursos para comenzar este proyecto en python:
-
-Python: version 3.10.7
-
-Librerias:
+📖 Librerias: 
  - Tweepy
  - Pandas
  - Json
+ - Dash (para graficar)
+ - Plotly (para graficar)
+---
+
+🛠️ Instalación de las librerías: 
+```
+pip install dash
+pip install dash-renderer
+pip install dash-html-components
+pip install dash-core-components
+pip install pandas
+```
+
  
-Documentacion de tweepy:  https://docs.tweepy.org/en/stable/index.html
+📌 Documentacion de tweepy:  https://docs.tweepy.org/en/stable/index.html
  
-Developer Portal:  https://developer.twitter.com/en/portal/dashboard
+📌 Developer Portal:  https://developer.twitter.com/en/portal/dashboard
  
  
  
