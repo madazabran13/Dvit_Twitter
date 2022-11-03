@@ -10,7 +10,6 @@
  - Pandas
  - Json
  - Dash (para graficar)
- - Plotly (para graficar)
 ---
 
 🛠️ Instalación de las librerías: 
