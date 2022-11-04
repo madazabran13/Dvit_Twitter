@@ -93,6 +93,7 @@ mentions_layout = html.Div(
     State(component_id="count-mentions", component_property="value"),
     State(component_id="input-handle", component_property="value"),
 )
+
 def display_value(nclicks, num, acnt_handle):
     results = api.GetSearch(
         raw_query=f"q=%40{acnt_handle}&src=typed_query&count={num}"
@@ -120,6 +121,9 @@ def display_value(nclicks, num, acnt_handle):
 
     most_followers = df.followers.max()
     most_folwrs_account_name = df["name"][df.followers == most_followers].values[0]
+    
+    most_friends = df.friends.max()
+    most_folwrs_account_name = df["name"][df.friends == most_friends].values[0]
 
     scatter_fig = px.scatter(
         df, x="followers", y="likes", trendline="ols", hover_data={"name": True}
@@ -127,6 +131,6 @@ def display_value(nclicks, num, acnt_handle):
     scatter_fig2 = px.scatter(
         df, x="friends", y="likes", trendline="ols", hover_data={"name": True}
     )
-    message = f"La cuenta de Twitter @{most_folwrs_account_name} menciona #{acnt_handle} tiene el mayor número de seguidores: ( {most_followers} )."
+    message = f"La cuenta de Twitter @{most_folwrs_account_name} menciona #{acnt_handle} tiene el mayor número de seguidores: ( {most_followers} ) y sigue a ( {most_friends} ) personas."
 
     return scatter_fig, scatter_fig2, message

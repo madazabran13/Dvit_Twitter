@@ -28,10 +28,11 @@ app.layout = dbc.Container([
     dbc.Row(dbc.Col(html.H1("Dvit: Analisis de resultados en Twiter",
                             style={"textAlign": "center"}), width=12),
             ),
-    html.Div([
-        html.Img(src='assets/vacuna.png')
-    ], className = 'banner'),
     html.Hr(),
+    html.Div([
+        html.Img(src='assets/logo.png')
+    ],),
+   
     dbc.Row(dbc.Col(app_tabs, width=12), className="mb-3"),
     html.Div(id='content', children=[])
 
