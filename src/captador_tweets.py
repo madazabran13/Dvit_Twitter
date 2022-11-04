@@ -18,13 +18,7 @@ def almacenar_tweet( status):
                     texto = status.text
                 texto = texto.replace('\n', ' ')
                 print(texto)
-
-
-                linea = [status.created_at,
-                         status.id, texto, status.source, status.truncated,
-                         status.in_reply_to_status_id, status.in_reply_to_user_id,
-                         status.in_reply_to_screen_name, status.geo, status.coordinates,
-                         status.place,status.contributors, status.lang, status.retweeted]
+                linea = [status.created_at,status.id, texto, status.source, status.truncated,status.in_reply_to_status_id, status.in_reply_to_user_id,status.in_reply_to_screen_name, status.geo, status.coordinates,status.place,status.contributors, status.lang, status.retweeted]
                 linea = linea
                 csvWriter.writerow(linea)
             print("Almacenamos Tweet")
@@ -46,12 +40,7 @@ if __name__ == '__main__':
                 print('El no archivo existe.');
                 csvFile = open('data/captador_tweets.csv', 'w', encoding= 'utf-8',  newline='')
                 csvWriter = csv.writer(csvFile)
-                cabecera=['--- Fecha_creación --- ',' --- Id --- ',' --- Texto --- ',
-                    ' --- Fuente --- ',' ---Truncado --- '
-                    ,' --- Respuesta_al_tweet --- ',' --- Respuesta_al_usuario_id --- '
-                    ,' --- Respuesta_al_usuario_nombre --- '
-
-                ]
+                cabecera=['--- Fecha_creación --- ',' --- Id --- ',' --- Texto --- ',' --- Fuente --- ',' ---Truncado --- ',' --- Respuesta_al_tweet --- ',' --- Respuesta_al_usuario_id --- ',' --- Respuesta_al_usuario_nombre --- ']
                 csvWriter.writerow(cabecera)
                 csvFile.close()
                 print("Creación de la cabecera")
@@ -59,12 +48,8 @@ if __name__ == '__main__':
     start_date = datetime(2020, 10, 10, 12, 00, 00)
     end_date = date.today()
 
-    for tweet in tweepy.Cursor(api.search_tweets, q="messi" ,
-                                       lang="es",
-                                       since=start_date ,until= end_date ).items():
+    for tweet in tweepy.Cursor(api.search_tweets, q="programacion OR python OR java" ,lang="es",since=start_date ,until= end_date ).items():
                 print(tweet.created_at, tweet.text)
                 almacenar_tweet(tweet)
-
-
     # End
     print("Terminado")

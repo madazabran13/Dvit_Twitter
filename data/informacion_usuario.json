@@ -1,0 +1,741 @@
+{
+    "attachments": {
+        "media_keys": [
+            "3_1573508140661985280"
+        ],
+        "media": [
+            {
+                "url": "https://pbs.twimg.com/media/FdY5US9X0AAe3Mc.jpg",
+                "height": 2048,
+                "width": 1536,
+                "media_key": "3_1573508140661985280",
+                "type": "photo"
+            }
+        ]
+    },
+    "lang": "es",
+    "entities": {
+        "urls": [
+            {
+                "start": 55,
+                "end": 78,
+                "url": "https://t.co/yJGfT06mW1",
+                "expanded_url": "https://twitter.com/midudev/status/1573508147939053568/photo/1",
+                "display_url": "pic.twitter.com/yJGfT06mW1",
+                "media_key": "3_1573508140661985280"
+            }
+        ],
+        "mentions": [
+            {
+                "start": 0,
+                "end": 13,
+                "username": "JarrisonCano",
+                "id": "1019740855207415810",
+                "name": "Jarrison Cano \ud83e\ude90",
+                "verified": false,
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "start": 0,
+                                "end": 23,
+                                "url": "https://t.co/IHGTawgSr9",
+                                "expanded_url": "https://www.instagram.com/jarrisoncanom/",
+                                "display_url": "instagram.com/jarrisoncanom/"
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "created_at": "2018-07-19T00:29:00.000Z",
+                "location": "Medellin, Colombia.",
+                "public_metrics": {
+                    "followers_count": 68,
+                    "following_count": 342,
+                    "tweet_count": 266,
+                    "listed_count": 1
+                },
+                "pinned_tweet_id": "1295707567042301953",
+                "profile_image_url": "https://pbs.twimg.com/profile_images/1574094114458566659/cbiJ-2I__normal.jpg",
+                "url": "https://t.co/IHGTawgSr9",
+                "description": "Frontend Engineer \u2728"
+            },
+            {
+                "start": 14,
+                "end": 22,
+                "username": "cvander",
+                "id": "817789",
+                "name": "Christian Van Der Henst\u2728",
+                "verified": false,
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "start": 0,
+                                "end": 23,
+                                "url": "https://t.co/tHQoMlJpqN",
+                                "expanded_url": "http://platzi.com",
+                                "display_url": "platzi.com"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "mentions": [
+                            {
+                                "start": 51,
+                                "end": 58,
+                                "username": "Platzi"
+                            },
+                            {
+                                "start": 101,
+                                "end": 114,
+                                "username": "cryptoplatzi"
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "created_at": "2007-03-07T11:41:01.000Z",
+                "location": "San Francisco \ud83c\uddfa\ud83c\uddf8",
+                "public_metrics": {
+                    "followers_count": 124857,
+                    "following_count": 515,
+                    "tweet_count": 53895,
+                    "listed_count": 1838
+                },
+                "pinned_tweet_id": "1535318867760754689",
+                "profile_image_url": "https://pbs.twimg.com/profile_images/1503051282189221889/pbKnBAOG_normal.jpg",
+                "url": "https://t.co/tHQoMlJpqN",
+                "description": "\ud83d\udc9a Building effective profesional education for the @Platzi community. \ud83d\ude80 Nunca pares de aprender. \ud83d\udc68\ud83c\udffb\u200d\ud83d\udcbb@cryptoplatzi \u26d3\ufe0f"
+            },
+            {
+                "start": 23,
+                "end": 32,
+                "username": "freddier",
+                "id": "16742912",
+                "name": "Freddy Vega",
+                "verified": true,
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "start": 0,
+                                "end": 23,
+                                "url": "https://t.co/LyXZg1wKAJ",
+                                "expanded_url": "https://platzi.com/",
+                                "display_url": "platzi.com"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "hashtags": [
+                            {
+                                "start": 44,
+                                "end": 61,
+                                "tag": "PlatziSePagaSolo"
+                            }
+                        ],
+                        "mentions": [
+                            {
+                                "start": 16,
+                                "end": 23,
+                                "username": "Platzi"
+                            },
+                            {
+                                "start": 26,
+                                "end": 39,
+                                "username": "PlatziBrasil"
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "created_at": "2008-10-14T18:15:26.000Z",
+                "location": "LATAM",
+                "public_metrics": {
+                    "followers_count": 257994,
+                    "following_count": 1351,
+                    "tweet_count": 158026,
+                    "listed_count": 2467
+                },
+                "profile_image_url": "https://pbs.twimg.com/profile_images/1496885672627556362/jkvPwUuT_normal.jpg",
+                "url": "https://t.co/LyXZg1wKAJ",
+                "description": "CEO, Cofounder: @Platzi / @PlatziBrasil \ud83d\udc9a\n\ud83d\udc49 #PlatziSePagaSolo"
+            }
+        ]
+    },
+    "id": "1573508147939053568",
+    "created_at": "2022-09-24T03:02:31.000Z",
+    "edit_controls": {
+        "edits_remaining": 5,
+        "is_edit_eligible": false,
+        "editable_until": "2022-09-24T03:32:31.000Z"
+    },
+    "referenced_tweets": [
+        {
+            "type": "replied_to",
+            "id": "1573507950223794195",
+            "lang": "es",
+            "created_at": "2022-09-24T03:01:44.000Z",
+            "edit_controls": {
+                "edits_remaining": 5,
+                "is_edit_eligible": false,
+                "editable_until": "2022-09-24T03:31:44.000Z"
+            },
+            "referenced_tweets": [
+                {
+                    "type": "replied_to",
+                    "id": "1573507363549716486",
+                    "lang": "es",
+                    "created_at": "2022-09-24T02:59:24.000Z",
+                    "edit_controls": {
+                        "edits_remaining": 5,
+                        "is_edit_eligible": false,
+                        "editable_until": "2022-09-24T03:29:24.000Z"
+                    },
+                    "referenced_tweets": [
+                        {
+                            "type": "replied_to",
+                            "id": "1573479572485578754"
+                        }
+                    ],
+                    "conversation_id": "1573455697051893760",
+                    "entities": {
+                        "mentions": [
+                            {
+                                "start": 0,
+                                "end": 8,
+                                "username": "cvander",
+                                "id": "817789",
+                                "name": "Christian Van Der Henst\u2728",
+                                "verified": false,
+                                "entities": {
+                                    "url": {
+                                        "urls": [
+                                            {
+                                                "start": 0,
+                                                "end": 23,
+                                                "url": "https://t.co/tHQoMlJpqN",
+                                                "expanded_url": "http://platzi.com",
+                                                "display_url": "platzi.com"
+                                            }
+                                        ]
+                                    },
+                                    "description": {
+                                        "mentions": [
+                                            {
+                                                "start": 51,
+                                                "end": 58,
+                                                "username": "Platzi"
+                                            },
+                                            {
+                                                "start": 101,
+                                                "end": 114,
+                                                "username": "cryptoplatzi"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "protected": false,
+                                "created_at": "2007-03-07T11:41:01.000Z",
+                                "location": "San Francisco \ud83c\uddfa\ud83c\uddf8",
+                                "public_metrics": {
+                                    "followers_count": 124857,
+                                    "following_count": 515,
+                                    "tweet_count": 53895,
+                                    "listed_count": 1838
+                                },
+                                "pinned_tweet_id": "1535318867760754689",
+                                "profile_image_url": "https://pbs.twimg.com/profile_images/1503051282189221889/pbKnBAOG_normal.jpg",
+                                "url": "https://t.co/tHQoMlJpqN",
+                                "description": "\ud83d\udc9a Building effective profesional education for the @Platzi community. \ud83d\ude80 Nunca pares de aprender. \ud83d\udc68\ud83c\udffb\u200d\ud83d\udcbb@cryptoplatzi \u26d3\ufe0f"
+                            },
+                            {
+                                "start": 9,
+                                "end": 18,
+                                "username": "freddier",
+                                "id": "16742912",
+                                "name": "Freddy Vega",
+                                "verified": true,
+                                "entities": {
+                                    "url": {
+                                        "urls": [
+                                            {
+                                                "start": 0,
+                                                "end": 23,
+                                                "url": "https://t.co/LyXZg1wKAJ",
+                                                "expanded_url": "https://platzi.com/",
+                                                "display_url": "platzi.com"
+                                            }
+                                        ]
+                                    },
+                                    "description": {
+                                        "hashtags": [
+                                            {
+                                                "start": 44,
+                                                "end": 61,
+                                                "tag": "PlatziSePagaSolo"
+                                            }
+                                        ],
+                                        "mentions": [
+                                            {
+                                                "start": 16,
+                                                "end": 23,
+                                                "username": "Platzi"
+                                            },
+                                            {
+                                                "start": 26,
+                                                "end": 39,
+                                                "username": "PlatziBrasil"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "protected": false,
+                                "created_at": "2008-10-14T18:15:26.000Z",
+                                "location": "LATAM",
+                                "public_metrics": {
+                                    "followers_count": 257994,
+                                    "following_count": 1351,
+                                    "tweet_count": 158026,
+                                    "listed_count": 2467
+                                },
+                                "profile_image_url": "https://pbs.twimg.com/profile_images/1496885672627556362/jkvPwUuT_normal.jpg",
+                                "url": "https://t.co/LyXZg1wKAJ",
+                                "description": "CEO, Cofounder: @Platzi / @PlatziBrasil \ud83d\udc9a\n\ud83d\udc49 #PlatziSePagaSolo"
+                            },
+                            {
+                                "start": 39,
+                                "end": 48,
+                                "username": "freddier",
+                                "id": "16742912",
+                                "name": "Freddy Vega",
+                                "verified": true,
+                                "entities": {
+                                    "url": {
+                                        "urls": [
+                                            {
+                                                "start": 0,
+                                                "end": 23,
+                                                "url": "https://t.co/LyXZg1wKAJ",
+                                                "expanded_url": "https://platzi.com/",
+                                                "display_url": "platzi.com"
+                                            }
+                                        ]
+                                    },
+                                    "description": {
+                                        "hashtags": [
+                                            {
+                                                "start": 44,
+                                                "end": 61,
+                                                "tag": "PlatziSePagaSolo"
+                                            }
+                                        ],
+                                        "mentions": [
+                                            {
+                                                "start": 16,
+                                                "end": 23,
+                                                "username": "Platzi"
+                                            },
+                                            {
+                                                "start": 26,
+                                                "end": 39,
+                                                "username": "PlatziBrasil"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "protected": false,
+                                "created_at": "2008-10-14T18:15:26.000Z",
+                                "location": "LATAM",
+                                "public_metrics": {
+                                    "followers_count": 257994,
+                                    "following_count": 1351,
+                                    "tweet_count": 158026,
+                                    "listed_count": 2467
+                                },
+                                "profile_image_url": "https://pbs.twimg.com/profile_images/1496885672627556362/jkvPwUuT_normal.jpg",
+                                "url": "https://t.co/LyXZg1wKAJ",
+                                "description": "CEO, Cofounder: @Platzi / @PlatziBrasil \ud83d\udc9a\n\ud83d\udc49 #PlatziSePagaSolo"
+                            }
+                        ]
+                    },
+                    "source": "Twitter for iPhone",
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                        "retweet_count": 0,
+                        "reply_count": 1,
+                        "like_count": 51,
+                        "quote_count": 0
+                    },
+                    "author_id": "4882508632",
+                    "reply_settings": "everyone",
+                    "in_reply_to_user_id": "817789",
+                    "text": "@cvander @freddier Jajajaja la cara de @freddier es buen\u00edsima.",
+                    "edit_history_tweet_ids": [
+                        "1573507363549716486"
+                    ]
+                }
+            ],
+            "conversation_id": "1573455697051893760",
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "username": "midudev",
+                        "id": "4882508632",
+                        "name": "Miguel \u00c1ngel Dur\u00e1n",
+                        "verified": false,
+                        "entities": {
+                            "url": {
+                                "urls": [
+                                    {
+                                        "start": 0,
+                                        "end": 23,
+                                        "url": "https://t.co/jnv9RuXwle",
+                                        "expanded_url": "https://twitch.tv/midudev",
+                                        "display_url": "twitch.tv/midudev"
+                                    }
+                                ]
+                            },
+                            "description": {
+                                "urls": [
+                                    {
+                                        "start": 91,
+                                        "end": 114,
+                                        "url": "https://t.co/fcahiemHdr",
+                                        "expanded_url": "http://twitch.tv/midudev",
+                                        "display_url": "twitch.tv/midudev"
+                                    },
+                                    {
+                                        "start": 127,
+                                        "end": 150,
+                                        "url": "https://t.co/XruHkD62j3",
+                                        "expanded_url": "http://discord.gg/midudev",
+                                        "display_url": "discord.gg/midudev"
+                                    }
+                                ]
+                            }
+                        },
+                        "protected": false,
+                        "created_at": "2016-02-06T17:55:21.000Z",
+                        "location": "\u2318 Barcelona",
+                        "public_metrics": {
+                            "followers_count": 149197,
+                            "following_count": 791,
+                            "tweet_count": 9583,
+                            "listed_count": 3155
+                        },
+                        "pinned_tweet_id": "1575166999042326529",
+                        "profile_image_url": "https://pbs.twimg.com/profile_images/1588280326714892289/sUmQiZIY_normal.jpg",
+                        "url": "https://t.co/jnv9RuXwle",
+                        "description": "\ud83d\udc68\u200d\ud83d\udcbb Ingeniero de Software & JavaScript\n\u2b50 GitHub Star y Google Dev Expert\n\ud83d\udd34 Twitch Partner: https://t.co/fcahiemHdr\n\ud83d\udde3\ufe0f Discord: https://t.co/XruHkD62j3"
+                    },
+                    {
+                        "start": 9,
+                        "end": 17,
+                        "username": "cvander",
+                        "id": "817789",
+                        "name": "Christian Van Der Henst\u2728",
+                        "verified": false,
+                        "entities": {
+                            "url": {
+                                "urls": [
+                                    {
+                                        "start": 0,
+                                        "end": 23,
+                                        "url": "https://t.co/tHQoMlJpqN",
+                                        "expanded_url": "http://platzi.com",
+                                        "display_url": "platzi.com"
+                                    }
+                                ]
+                            },
+                            "description": {
+                                "mentions": [
+                                    {
+                                        "start": 51,
+                                        "end": 58,
+                                        "username": "Platzi"
+                                    },
+                                    {
+                                        "start": 101,
+                                        "end": 114,
+                                        "username": "cryptoplatzi"
+                                    }
+                                ]
+                            }
+                        },
+                        "protected": false,
+                        "created_at": "2007-03-07T11:41:01.000Z",
+                        "location": "San Francisco \ud83c\uddfa\ud83c\uddf8",
+                        "public_metrics": {
+                            "followers_count": 124857,
+                            "following_count": 515,
+                            "tweet_count": 53895,
+                            "listed_count": 1838
+                        },
+                        "pinned_tweet_id": "1535318867760754689",
+                        "profile_image_url": "https://pbs.twimg.com/profile_images/1503051282189221889/pbKnBAOG_normal.jpg",
+                        "url": "https://t.co/tHQoMlJpqN",
+                        "description": "\ud83d\udc9a Building effective profesional education for the @Platzi community. \ud83d\ude80 Nunca pares de aprender. \ud83d\udc68\ud83c\udffb\u200d\ud83d\udcbb@cryptoplatzi \u26d3\ufe0f"
+                    },
+                    {
+                        "start": 18,
+                        "end": 27,
+                        "username": "freddier",
+                        "id": "16742912",
+                        "name": "Freddy Vega",
+                        "verified": true,
+                        "entities": {
+                            "url": {
+                                "urls": [
+                                    {
+                                        "start": 0,
+                                        "end": 23,
+                                        "url": "https://t.co/LyXZg1wKAJ",
+                                        "expanded_url": "https://platzi.com/",
+                                        "display_url": "platzi.com"
+                                    }
+                                ]
+                            },
+                            "description": {
+                                "hashtags": [
+                                    {
+                                        "start": 44,
+                                        "end": 61,
+                                        "tag": "PlatziSePagaSolo"
+                                    }
+                                ],
+                                "mentions": [
+                                    {
+                                        "start": 16,
+                                        "end": 23,
+                                        "username": "Platzi"
+                                    },
+                                    {
+                                        "start": 26,
+                                        "end": 39,
+                                        "username": "PlatziBrasil"
+                                    }
+                                ]
+                            }
+                        },
+                        "protected": false,
+                        "created_at": "2008-10-14T18:15:26.000Z",
+                        "location": "LATAM",
+                        "public_metrics": {
+                            "followers_count": 257994,
+                            "following_count": 1351,
+                            "tweet_count": 158026,
+                            "listed_count": 2467
+                        },
+                        "profile_image_url": "https://pbs.twimg.com/profile_images/1496885672627556362/jkvPwUuT_normal.jpg",
+                        "url": "https://t.co/LyXZg1wKAJ",
+                        "description": "CEO, Cofounder: @Platzi / @PlatziBrasil \ud83d\udc9a\n\ud83d\udc49 #PlatziSePagaSolo"
+                    }
+                ]
+            },
+            "source": "Twitter for iPhone",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "retweet_count": 0,
+                "reply_count": 1,
+                "like_count": 0,
+                "quote_count": 0
+            },
+            "author_id": "1019740855207415810",
+            "reply_settings": "everyone",
+            "in_reply_to_user_id": "4882508632",
+            "text": "@midudev @cvander @freddier Midu a dormir que ma\u00f1ana se madruga",
+            "edit_history_tweet_ids": [
+                "1573507950223794195"
+            ],
+            "author": {
+                "name": "Jarrison Cano \ud83e\ude90",
+                "verified": false,
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "start": 0,
+                                "end": 23,
+                                "url": "https://t.co/IHGTawgSr9",
+                                "expanded_url": "https://www.instagram.com/jarrisoncanom/",
+                                "display_url": "instagram.com/jarrisoncanom/"
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "created_at": "2018-07-19T00:29:00.000Z",
+                "location": "Medellin, Colombia.",
+                "public_metrics": {
+                    "followers_count": 68,
+                    "following_count": 342,
+                    "tweet_count": 266,
+                    "listed_count": 1
+                },
+                "pinned_tweet_id": "1295707567042301953",
+                "profile_image_url": "https://pbs.twimg.com/profile_images/1574094114458566659/cbiJ-2I__normal.jpg",
+                "url": "https://t.co/IHGTawgSr9",
+                "username": "JarrisonCano",
+                "id": "1019740855207415810",
+                "description": "Frontend Engineer \u2728"
+            },
+            "in_reply_to_user": {
+                "name": "Miguel \u00c1ngel Dur\u00e1n",
+                "verified": false,
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "start": 0,
+                                "end": 23,
+                                "url": "https://t.co/jnv9RuXwle",
+                                "expanded_url": "https://twitch.tv/midudev",
+                                "display_url": "twitch.tv/midudev"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "start": 91,
+                                "end": 114,
+                                "url": "https://t.co/fcahiemHdr",
+                                "expanded_url": "http://twitch.tv/midudev",
+                                "display_url": "twitch.tv/midudev"
+                            },
+                            {
+                                "start": 127,
+                                "end": 150,
+                                "url": "https://t.co/XruHkD62j3",
+                                "expanded_url": "http://discord.gg/midudev",
+                                "display_url": "discord.gg/midudev"
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "created_at": "2016-02-06T17:55:21.000Z",
+                "location": "\u2318 Barcelona",
+                "public_metrics": {
+                    "followers_count": 149197,
+                    "following_count": 791,
+                    "tweet_count": 9583,
+                    "listed_count": 3155
+                },
+                "pinned_tweet_id": "1575166999042326529",
+                "profile_image_url": "https://pbs.twimg.com/profile_images/1588280326714892289/sUmQiZIY_normal.jpg",
+                "url": "https://t.co/jnv9RuXwle",
+                "username": "midudev",
+                "id": "4882508632",
+                "description": "\ud83d\udc68\u200d\ud83d\udcbb Ingeniero de Software & JavaScript\n\u2b50 GitHub Star y Google Dev Expert\n\ud83d\udd34 Twitch Partner: https://t.co/fcahiemHdr\n\ud83d\udde3\ufe0f Discord: https://t.co/XruHkD62j3"
+            }
+        }
+    ],
+    "conversation_id": "1573455697051893760",
+    "source": "Twitter for iPhone",
+    "possibly_sensitive": false,
+    "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 7,
+        "quote_count": 0
+    },
+    "author_id": "4882508632",
+    "reply_settings": "everyone",
+    "in_reply_to_user_id": "1019740855207415810",
+    "text": "@JarrisonCano @cvander @freddier Me voy a cenar jajaja https://t.co/yJGfT06mW1",
+    "edit_history_tweet_ids": [
+        "1573508147939053568"
+    ],
+    "author": {
+        "name": "Miguel \u00c1ngel Dur\u00e1n",
+        "verified": false,
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "start": 0,
+                        "end": 23,
+                        "url": "https://t.co/jnv9RuXwle",
+                        "expanded_url": "https://twitch.tv/midudev",
+                        "display_url": "twitch.tv/midudev"
+                    }
+                ]
+            },
+            "description": {
+                "urls": [
+                    {
+                        "start": 91,
+                        "end": 114,
+                        "url": "https://t.co/fcahiemHdr",
+                        "expanded_url": "http://twitch.tv/midudev",
+                        "display_url": "twitch.tv/midudev"
+                    },
+                    {
+                        "start": 127,
+                        "end": 150,
+                        "url": "https://t.co/XruHkD62j3",
+                        "expanded_url": "http://discord.gg/midudev",
+                        "display_url": "discord.gg/midudev"
+                    }
+                ]
+            }
+        },
+        "protected": false,
+        "created_at": "2016-02-06T17:55:21.000Z",
+        "location": "\u2318 Barcelona",
+        "public_metrics": {
+            "followers_count": 149197,
+            "following_count": 791,
+            "tweet_count": 9583,
+            "listed_count": 3155
+        },
+        "pinned_tweet_id": "1575166999042326529",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1588280326714892289/sUmQiZIY_normal.jpg",
+        "url": "https://t.co/jnv9RuXwle",
+        "username": "midudev",
+        "id": "4882508632",
+        "description": "\ud83d\udc68\u200d\ud83d\udcbb Ingeniero de Software & JavaScript\n\u2b50 GitHub Star y Google Dev Expert\n\ud83d\udd34 Twitch Partner: https://t.co/fcahiemHdr\n\ud83d\udde3\ufe0f Discord: https://t.co/XruHkD62j3"
+    },
+    "in_reply_to_user": {
+        "name": "Jarrison Cano \ud83e\ude90",
+        "verified": false,
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "start": 0,
+                        "end": 23,
+                        "url": "https://t.co/IHGTawgSr9",
+                        "expanded_url": "https://www.instagram.com/jarrisoncanom/",
+                        "display_url": "instagram.com/jarrisoncanom/"
+                    }
+                ]
+            }
+        },
+        "protected": false,
+        "created_at": "2018-07-19T00:29:00.000Z",
+        "location": "Medellin, Colombia.",
+        "public_metrics": {
+            "followers_count": 68,
+            "following_count": 342,
+            "tweet_count": 266,
+            "listed_count": 1
+        },
+        "pinned_tweet_id": "1295707567042301953",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1574094114458566659/cbiJ-2I__normal.jpg",
+        "url": "https://t.co/IHGTawgSr9",
+        "username": "JarrisonCano",
+        "id": "1019740855207415810",
+        "description": "Frontend Engineer \u2728"
+    },
+    "__twarc": {
+        "url": "https://api.twitter.com/2/users/4882508632/tweets?expansions=author_id%2Cin_reply_to_user_id%2Creferenced_tweets.id%2Creferenced_tweets.id.author_id%2Centities.mentions.username%2Cattachments.poll_ids%2Cattachments.media_keys%2Cgeo.place_id%2Cedit_history_tweet_ids&tweet.fields=attachments%2Cauthor_id%2Ccontext_annotations%2Cconversation_id%2Ccreated_at%2Centities%2Cgeo%2Cid%2Cin_reply_to_user_id%2Clang%2Cpublic_metrics%2Ctext%2Cpossibly_sensitive%2Creferenced_tweets%2Creply_settings%2Csource%2Cwithheld%2Cedit_controls&user.fields=created_at%2Cdescription%2Centities%2Cid%2Clocation%2Cname%2Cpinned_tweet_id%2Cprofile_image_url%2Cprotected%2Cpublic_metrics%2Curl%2Cusername%2Cverified%2Cwithheld&media.fields=alt_text%2Cduration_ms%2Cheight%2Cmedia_key%2Cpreview_image_url%2Ctype%2Curl%2Cwidth%2Cpublic_metrics&poll.fields=duration_minutes%2Cend_datetime%2Cid%2Coptions%2Cvoting_status&place.fields=contained_within%2Ccountry%2Ccountry_code%2Cfull_name%2Cgeo%2Cid%2Cname%2Cplace_type&max_results=100&pagination_token=7140dibdnow9c7btw423ht67uzaisdbbxwr0dzoh6fuwg",
+        "version": "2.12.0",
+        "retrieved_at": "2022-11-04T19:09:54+00:00"
+    }
+}
