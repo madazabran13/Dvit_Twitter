@@ -23,7 +23,10 @@ pip install dash
 pip install pandas
 pip install twitter
 ```
+📊 Imagen del dashboard:
 
+
+![image](https://user-images.githubusercontent.com/79603843/200050444-15f706c3-3e08-4c62-a2ca-dbc63987e63a.png)
  
 📌 Documentacion de tweepy:  https://docs.tweepy.org/en/stable/index.html
  
