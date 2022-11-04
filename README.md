@@ -23,6 +23,16 @@ pip install dash
 pip install pandas
 pip install twitter
 ```
+
+🗝️ Conexion con twitter:
+```
+consumer_key = ""
+consumer_secret = ""
+Bearer_Token = ""
+access_token = ""
+access_token_secret = ""
+```
+
 📊 Imagen del dashboard:
 
 
