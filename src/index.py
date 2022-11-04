@@ -7,6 +7,7 @@ import twitter  # pip install python-twitter
 from app import app, api
 from app import  api
 from mentions import mentions_layout
+from perfiles import perfiles_layout
 
 
 
@@ -15,7 +16,8 @@ app_tabs = html.Div(
     [
         dbc.Tabs(
             [
-                dbc.Tab(label="Menciones", tab_id="tab-mentions", labelClassName="text-success font-weight-bold", activeLabelClassName="text-danger"),
+                dbc.Tab(label="Dashboard", tab_id="tab-mentions", labelClassName="text-success font-weight-bold", activeLabelClassName="text-danger"),
+                dbc.Tab(label="Perfiles", tab_id="tab-perfiles", labelClassName="text-success font-weight-bold", activeLabelClassName="text-danger"),
             ],
             id="tabs",
             active_tab="tab-mentions",
@@ -29,9 +31,7 @@ app.layout = dbc.Container([
                             style={"textAlign": "center"}), width=12),
             ),
     html.Hr(),
-    html.Div([
-        html.Img(src='assets/logo.png')
-    ],),
+    #html.Img(src='assets/logo.png'),
    
     dbc.Row(dbc.Col(app_tabs, width=12), className="mb-3"),
     html.Div(id='content', children=[])
@@ -46,6 +46,8 @@ app.layout = dbc.Container([
 def switch_tab(tab_chosen):
     if tab_chosen == "tab-mentions":
         return mentions_layout
+    elif tab_chosen == "tab-perfiles":
+        return perfiles_layout
     return html.P("Esto no debería mostrarse por ahora....")
 
 if __name__=='__main__':

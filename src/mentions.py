@@ -24,6 +24,9 @@ mentions_layout = html.Div(
                                 {"label": "50", "value": 50},
                                 {"label": "100", "value": 100},
                                 {"label": "200", "value": 200},
+                                {"label": "300", "value": 300},
+                                {"label": "400", "value": 400},
+                                {"label": "500", "value": 500},
                             ],
                             clearable=False,
                         ),
@@ -52,8 +55,9 @@ mentions_layout = html.Div(
                         html.Button(
                             id="hit-button",
                             children="Buscar",
-                            style={"background-color": "grey", "color": "white"},
+                            style={"background-color": "indigo", "color": "white"},
                         )
+                        
                     ],
                     width=2,
                 )
@@ -80,6 +84,7 @@ mentions_layout = html.Div(
                 )
             ]
         ),
+         dbc.Row([dbc.Col([html.P('© Desarrollado por: Miguel Daza - Daniel Prasca - Heimis Miranda.',  style={"textAlign": "center"})])])
     ]
 )
 
@@ -122,15 +127,13 @@ def display_value(nclicks, num, acnt_handle):
     most_followers = df.followers.max()
     most_folwrs_account_name = df["name"][df.followers == most_followers].values[0]
     
-    most_friends = df.friends.max()
-    most_folwrs_account_name = df["name"][df.friends == most_friends].values[0]
-
     scatter_fig = px.scatter(
         df, x="followers", y="likes", trendline="ols", hover_data={"name": True}
     )
     scatter_fig2 = px.scatter(
         df, x="friends", y="likes", trendline="ols", hover_data={"name": True}
     )
-    message = f"La cuenta de Twitter @{most_folwrs_account_name} menciona #{acnt_handle} tiene el mayor número de seguidores: ( {most_followers} ) y sigue a ( {most_friends} ) personas."
-
+    message = f'La cuenta de Twitter @{most_folwrs_account_name} menciona #{acnt_handle} tiene el mayor número de seguidores: ( {most_followers} ).'
     return scatter_fig, scatter_fig2, message
+
+#'© Desarrollado por: Miguel Daza - Daniel Prasca - Heimis Miranda.'
