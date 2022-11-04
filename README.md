@@ -1,6 +1,6 @@
-# Dashboard de lenguajes de programación
+# Dashboard de lenguajes de programación más mencionados en Twitter
 
-![logo](https://user-images.githubusercontent.com/79603843/200008040-4c7823b6-8723-4a89-aaa5-081b3c8df86b.jpg)
+![f3dce503-6c4f-4eeb-ba92-f7db53309c19](https://user-images.githubusercontent.com/79603843/200047443-f1bdf620-df69-4f96-802e-f32115589d00.jpg)
 
 ### La finalidad de este proyecto es hacer un dashboard con la información recopilada de los lenguajes de programación mas usados desde Twitter.
 
