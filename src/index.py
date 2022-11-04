@@ -11,7 +11,19 @@ from perfiles import perfiles_layout
 
 
 
-# our app's Tabs *********************************************************
+# app.layout = html.Div([    
+#     html.Hr(),
+#     html.Div([
+#         html.H1('Dvit: Analisis de resultados en Twiter',style={"textAlign": "center"}),
+#         html.Img(srcSet='https://bit.ly/3thM6O1',
+#             ),
+#     ], className= 'banner'),
+    
+#     html.Hr(),
+# ], id='content', style={'display':'flex', 'flex-direction':'column'})
+
+
+
 app_tabs = html.Div(
     [
         dbc.Tabs(
@@ -26,17 +38,43 @@ app_tabs = html.Div(
 )
 
 app.layout = dbc.Container([ 
-    html.Hr(),
-    dbc.Row(dbc.Col(html.H1("Dvit: Analisis de resultados en Twiter",
-                            style={"textAlign": "center"}), width=12),
-            ),
-    html.Hr(),
-    #html.Img(src='assets/logo.png'),
+    
+    
+    # dbc.Row(dbc.Col(html.H1("Dvit: Analisis de resultados en Twiter",
+    #                         style={"textAlign": "center"}), width=12),
+    #         ),
+    
+    # style = {"textAlign": "center",'height':'75px','margin':'0px -10px 10px''background-color':'#5a6ac5','border-radius':'2px','display':'block'}
+    html.Div([
+        # html.Hr(),
+        html.H1('Dvit: Analisis de resultados en Twiter',
+                style={"textAlign": "center",
+                       'color': '0966cf',
+                       'padding-top': '20px',
+                       'margin-left': '2%', 
+                       'display': 'inline-block'
+                       }),
+        html.Img(srcSet='https://bit.ly/3E2QDdl',
+                 style={'position': 'relative',
+                    'float': 'right',
+                    'right': '30px',
+                    'height': '75px',
+                    
+                    }),
+    ], style={"textAlign": "center",
+                           'height':'70px',
+                           'margin':'0px -80 10px',
+                        #    'background-color':'#50759e',
+                           'border-radius':'5px',
+                           'display':'block',},),
+   
+    # html.Img(srcSet='https://bit.ly/3thM6O1',
+    #          style={'width':'50%',}),
    
     dbc.Row(dbc.Col(app_tabs, width=12), className="mb-3"),
     html.Div(id='content', children=[])
 
-])
+], style={'display':'block', 'flex-direction':'column'})
 
 @app.callback(
     Output("content", "children"),
