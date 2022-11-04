@@ -11,15 +11,11 @@ from app import app, api
 import nltk
 from wordcloud import WordCloud
 
-def f(row):
-    return "[{0}]({0})".format(row["url"])
-
-# layout of second (trends) tab ******************************************
 perfiles_layout = dbc.Container([
     dbc.Row([
         dbc.Col([
             html.H2("Integrantes")
-        ], width=8)
+        ], width=6)
     ]),
     dbc.Row([
         dbc.Col([
@@ -39,10 +35,9 @@ perfiles_layout = dbc.Container([
     Input(component_id="tabla", component_property="n_intervals"),
 )
 def display_trend(tabla):
-    cedulas,nombres,apellidos = ['Ced1','Ced2','Ced3'], ['Miguel','Daniel','Heimis'], ['Daza','Prasca','Miranda']
+    nombres,apellidos =  ['Miguel Andrés','Daniel Felipe','Heimis Valentina'],['Daza Bran','Prasca Vásquez','Miranda Ramos']
     
     d = {
-        "Cedula": cedulas,
         "Nombres": nombres,
         "Apellidos": apellidos,
     }
@@ -52,14 +47,14 @@ def display_trend(tabla):
         id='datatable-trends',
         columns=[
             {"name": i, "id": i}
-            if i == "trending" or i == "volume"
+            if i == "trending" 
             else {"name": i, "id": i, 'type': 'text', "presentation":"markdown"}
             for i in df.columns
         ],
         data=df.to_dict('records'),
         markdown_options=dict(html=True, link_target='_blank'),
         page_action='native',
-        page_size=6,
+        page_size=10,
         style_cell={
             'whiteSpace': 'normal',
             'height': 'auto',

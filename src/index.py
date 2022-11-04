@@ -9,21 +9,6 @@ from app import  api
 from mentions import mentions_layout
 from perfiles import perfiles_layout
 
-
-
-# app.layout = html.Div([    
-#     html.Hr(),
-#     html.Div([
-#         html.H1('Dvit: Analisis de resultados en Twiter',style={"textAlign": "center"}),
-#         html.Img(srcSet='https://bit.ly/3thM6O1',
-#             ),
-#     ], className= 'banner'),
-    
-#     html.Hr(),
-# ], id='content', style={'display':'flex', 'flex-direction':'column'})
-
-
-
 app_tabs = html.Div(
     [
         dbc.Tabs(
@@ -38,33 +23,26 @@ app_tabs = html.Div(
 )
 
 app.layout = dbc.Container([ 
-    
-    
-    # dbc.Row(dbc.Col(html.H1("Dvit: Analisis de resultados en Twiter",
-    #                         style={"textAlign": "center"}), width=12),
-    #         ),
-    
-    # style = {"textAlign": "center",'height':'75px','margin':'0px -10px 10px''background-color':'#5a6ac5','border-radius':'2px','display':'block'}
     html.Div([
         # html.Hr(),
         html.H1('Dvit: Analisis de resultados en Twiter',
                 style={"textAlign": "center",
-                       'color': '0966cf',
+                       'color': 'white',
                        'padding-top': '20px',
                        'margin-left': '2%', 
                        'display': 'inline-block'
                        }),
-        html.Img(srcSet='https://bit.ly/3E2QDdl',
+        html.Img(srcSet='https://bit.ly/3h8c3fY',
                  style={'position': 'relative',
                     'float': 'right',
-                    'right': '30px',
-                    'height': '75px',
+                    'right': '-0.03px',
+                    'height': '76px',
                     
                     }),
     ], style={"textAlign": "center",
-                           'height':'70px',
+                           'height':'80px',
                            'margin':'0px -80 10px',
-                        #    'background-color':'#50759e',
+                            'background-color':'#366A96',
                            'border-radius':'5px',
                            'display':'block',},),
    
