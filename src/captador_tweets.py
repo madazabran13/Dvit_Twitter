@@ -34,7 +34,7 @@ if __name__ == '__main__':
     api = tweepy.API(auth)
 
     if os.path.isfile(
-                    'data/captador_tweets.csv'):
+                    'data/captador_tweets.w'):
                print('Preparado el fichero')
     else:
                 print('El no archivo existe.');
