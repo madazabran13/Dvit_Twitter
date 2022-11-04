@@ -25,7 +25,7 @@ app_tabs = html.Div(
 app.layout = dbc.Container([ 
     html.Div([
         # html.Hr(),
-        html.H1('Dvit: Analisis de resultados en Twiter',
+        html.H1('Dvit: Analisis de resultados en Twitter',
                 style={"textAlign": "center",
                        'color': 'white',
                        'padding-top': '20px',

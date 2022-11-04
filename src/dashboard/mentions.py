@@ -55,7 +55,7 @@ mentions_layout = html.Div(
                         html.Button(
                             id="hit-button",
                             children="Buscar",
-                            style={"background-color": "indigo", "color": "white"},
+                            style={"background-color": "#366A96", "color": "white"},
                         )
                         
                     ],
