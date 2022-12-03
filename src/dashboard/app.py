@@ -2,13 +2,15 @@ import dash
 import dash_bootstrap_components as dbc
 import twitter
 import tweepy
+import statsmodels.api as sm
 
-consumer_key = "tslgpq7gwhnWw3QYarXMCPwlc"
-consumer_secret = "rNYyeEwmVmW95qIQUl1IJWynCTsbSjkdj7SK0AhM0jfu1YvPeO"
-access_token_key = "1543831621995986945-Xx4GMorGlisGtw0GbalYSSZyCo7NjM"
-access_token_secret = "GNszLt2bXXC7LjuF9F7ErqxF54hW1B2b8auChXDyQycqL"
+api = twitter.Api(consumer_key = "vVeVBF6tElV22IKfNuS4UtKvB", consumer_secret = "kD6CD1LAc8W59T0IJmIpNe7RVClGH33JYVpR9CRWkGo1yAGPzv", access_token_key = "1543831621995986945-om4tOYAdD1Zorxobr7TS2O2l1npTHf", access_token_secret = "sxQR0xEy1wjlbFgzIO60g8ZPeDUFQxPW8HqxbjHYI3d4v")
+# consumer_key = "vVeVBF6tElV22IKfNuS4UtKvB"
+# consumer_secret = "kD6CD1LAc8W59T0IJmIpNe7RVClGH33JYVpR9CRWkGo1yAGPzv"
+# access_token_key = "1543831621995986945-om4tOYAdD1Zorxobr7TS2O2l1npTHf"
+# access_token_secret = "sxQR0xEy1wjlbFgzIO60g8ZPeDUFQxPW8HqxbjHYI3d4v"
 
-api = twitter.Api(consumer_key,consumer_secret, access_token_key, access_token_secret)
+# api = twitter.Api(consumer_key,consumer_secret, access_token_key, access_token_secret)
 
 # auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 # auth.set_access_token(access_token_key,access_token_secret)

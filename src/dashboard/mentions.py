@@ -7,7 +7,7 @@ from dash.dependencies import Output, Input, State
 import pandas as pd
 import twitter  # pip install python-twitter
 from app import app, api
-
+import statsmodels.api as sm
 
 mentions_layout = html.Div(
     [
@@ -87,7 +87,6 @@ mentions_layout = html.Div(
          dbc.Row([dbc.Col([html.P('© Desarrollado por: Miguel Daza - Daniel Prasca - Heimis Miranda.',  style={"textAlign": "center"})])])
     ]
 )
-
 
 # pull data from twitter and create the figures
 @app.callback(
