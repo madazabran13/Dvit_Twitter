@@ -5,6 +5,7 @@ import tweepy
 import statsmodels.api as sm
 
 api = twitter.Api(consumer_key = "vVeVBF6tElV22IKfNuS4UtKvB", consumer_secret = "kD6CD1LAc8W59T0IJmIpNe7RVClGH33JYVpR9CRWkGo1yAGPzv", access_token_key = "1543831621995986945-om4tOYAdD1Zorxobr7TS2O2l1npTHf", access_token_secret = "sxQR0xEy1wjlbFgzIO60g8ZPeDUFQxPW8HqxbjHYI3d4v")
+
 # consumer_key = "vVeVBF6tElV22IKfNuS4UtKvB"
 # consumer_secret = "kD6CD1LAc8W59T0IJmIpNe7RVClGH33JYVpR9CRWkGo1yAGPzv"
 # access_token_key = "1543831621995986945-om4tOYAdD1Zorxobr7TS2O2l1npTHf"
