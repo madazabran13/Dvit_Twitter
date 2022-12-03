@@ -4,8 +4,8 @@ from dash import html
 from dash import dcc
 from dash.dependencies import Output, Input
 import twitter  # pip install python-twitter
-from app import app, api
-from app import  api
+from app import app
+from app import api
 from mentions import mentions_layout
 from perfiles import perfiles_layout
 
